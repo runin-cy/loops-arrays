@@ -1,4 +1,4 @@
-for(let i= 0; i <= 1000; i = i + 2) {
+for(let i= 1000; i > 0; i = i - 2) {
     console.log(i);
 }
 for(let i = 0; i <= 10000; i++) {
@@ -6,7 +6,7 @@ for(let i = 0; i <= 10000; i++) {
     else if (i == "5000") alert("Halfway there!");
     else if (i == "10000") alert("The loop is done!");
 }
-const favourite = [1]
+const favourite = [1, 2, 3, 4, 5]
 console.log(favourite.length)
 for(let i=0; i < favourite.length; i++) {
     console.log("My #1 favorite tv show is Naruto")
